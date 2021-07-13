@@ -3,7 +3,7 @@
 ## 1주차
 * 자바, 인텔리제이 설치
 * 변수 및 타입
-* 반복문 (for, while)
+* [반복문 (for, while)](https://github.com/gbeea1004/code-with-me/blob/master/readme/step1.md#for)
 * 조건문 (if)
 
 ## 2주차
