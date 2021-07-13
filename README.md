@@ -7,5 +7,5 @@
 * 조건문 (if)
 
 ## 2주차
-* [깃허브 사용법](#githubGuide)
+* [깃허브 사용법](https://github.com/gbeea1004/code-with-me/blob/master/readme/step2.md#githubGuide)
 * 메서드

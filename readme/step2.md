@@ -1,5 +1,6 @@
 # 2주차
-<a id="githubGuide"></a>## 깃허브 사용 법
+<a id="githubGuide"></a>
+## 깃허브 사용 법
 
 ### 1. code-with-me 프로젝트를 내 깃허브 저장소로 Fork 한다.
 ![fork](https://user-images.githubusercontent.com/33652399/125388992-79753700-e3db-11eb-8c77-0a8b3bd97b59.jpg)
