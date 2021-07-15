@@ -36,7 +36,7 @@ ex) cd code-with-me
 
 ```
 git checkout -b 브랜치이름
-ex) git checkout -b step1
+ex) git checkout -b week1
 ```
 
 ![clone](githubguide_03.jpeg)
@@ -54,7 +54,7 @@ git commit -m "first commit" (커밋)
 
 ```
 git push origin 브랜치이름
-ex) git push origin step1 (origin 저장소의 step1 브랜치에 반영)
+ex) git push origin week1 (origin 저장소의 week1 브랜치에 반영)
 ```
 ![push](githubguide_05.jpeg)
 
@@ -62,7 +62,7 @@ ex) git push origin step1 (origin 저장소의 step1 브랜치에 반영)
 ![pr하는법](githubguide_07.png)
 
 > pull request 를 보낼때는 자신의 github 아이디 기준으로 보낸다.<br/> 
-> ex) origin step1 브랜치의 내용을 upstream gbeea1004 브랜치로 Pull Request 한다.<br/><br/>
+> ex) origin week1 브랜치의 내용을 upstream gbeea1004 브랜치로 Pull Request 한다.<br/><br/>
 > Pull Request를 통해 피드백을 받으면 코드를 수정한 후 같은 브랜치에 add, commit, push 작업을 반복 후 다시 Pull Request 보낸다.
 
 ![pr](githubguide_06.jpeg)
@@ -75,7 +75,7 @@ ex) git push origin step1 (origin 저장소의 step1 브랜치에 반영)
 git checkout 본인_아이디
 git branch -D 삭제할_브랜치이름
 ex) git checkout gbeea1004
-ex) git branch -D step1
+ex) git branch -D week1
 ```
 
 ### 8. merge 한 upstream 저장소와 동기화하기 위해 upstream 저장소의 자기 브랜치 추가 (최초 한번만)
@@ -101,7 +101,7 @@ ex) git rebase upstream/gbeea1004
 ### 11. 4 단계부터 진행
 ```
 git checkout -b 브랜치이름
-ex) git checkout -b step2
+ex) git checkout -b week2
 ```
 
 ### 참고
