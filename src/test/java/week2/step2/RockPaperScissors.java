@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class RockPaperScissors {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner((System.in));
-        boolean RockPaperScissors = true;
-        while (RockPaperScissors) {
+        Scanner scanner = new Scanner(System.in);
+        boolean rockPaperScissors = true;
+        while (rockPaperScissors) {
             System.out.print("가위(1), 바위(2), 보(3) 중 하나를 입력하세요.>");
             int user = Integer .parseInt(scanner.nextLine()); //유저의 입력값 저장
             int com = (int) (Math.random() * 3) + 1; //1,2,3중 하나가 임의로 저장
@@ -36,7 +36,7 @@ public class RockPaperScissors {
             System.out.println("재도전 하시겠습니까? (네 : Y or y, 아니오 : n or N)");
             String finish = scanner.nextLine();
             if (finish .equals("n") || finish . equals("N"))  {
-                RockPaperScissors = false;
+                rockPaperScissors = false;
             }
         }
     }
