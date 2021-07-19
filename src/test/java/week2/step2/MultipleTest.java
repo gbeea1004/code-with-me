@@ -17,6 +17,6 @@ public class MultipleTest {
     @Test
     @DisplayName("5의 배수가 나와야한다.")
     void multiple() {
-        assertThat(Multiple.multiple(5 ).isEqualTo(25);
+        assertThat(Multiple.multiple(5) ).isEqualTo(25);
     }
 }
