@@ -19,3 +19,7 @@
 * 배열
 * 클래스
 * 접근 제어자
+
+## 4주차
+수
+* [이중 for문 익숙해지기](https://github.com/gbeea1004/code-with-me/blob/master/readme/step4/step1.md)
