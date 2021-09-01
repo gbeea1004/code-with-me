@@ -17,7 +17,7 @@ public class CarRacing {
 
         for (int i = 0; i < carCount; i++) {
             for (int j = 0; j < tryCount; j++) {
-                if (random.nextInt(10) > 5) {
+                if (random.nextInt(10) > 3) {
                     System.out.print("-");
                     //이중 포문을 이용하여 랜던값 0~9 사이의 수중 4이상이 나오면 한칸씩 이동하도록 설계.
                 }
